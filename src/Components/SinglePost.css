@@ -1,0 +1,23 @@
+.postBox {
+    padding: 20px;
+    min-height: 200px;
+    transition: 1s;
+}
+.postBox:hover {
+    background: #3e4aae;
+    color: #fff;
+}
+.commentBox::before {
+    content: "";
+    border-color: #bababa transparent;
+    border-style: solid;
+    border-width: 20px 20px 0px 20px;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-8 {
+    position: relative;
+}
